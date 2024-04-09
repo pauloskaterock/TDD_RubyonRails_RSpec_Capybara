@@ -1,11 +1,11 @@
-require 'calculator'
+require '/mnt/c/TDD_RubyonRails_RSpec_Capybara/spec/calculator/calculator.rb'
 
 
     describe Calculator do
       it 'returns the sum of two numbers' do
-        cal = Calculator.new
+        calc = Calculator.new
         resul = calc.sum(5,7)
-        expect(resul).to eq(11)
+        expect(resul).to eq(12)
        
       end
     end
